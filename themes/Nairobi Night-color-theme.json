@@ -4,7 +4,6 @@
 	"colors": {
 		"editor.background": "#181825",
 		"editor.foreground": "#e3edff",
-		"activityBarBadge.background": "#181825",
 
 		//Base colors
 		"focusBorder": "#54648a",
@@ -25,9 +24,9 @@
 		"textSeparator.foreground": "#dfdfdf",
 
 		//Button
-		"button.background": "#afa61e",
-		"button.foreground": "#cec223",
-		"button.hoverBackground": "#f7ec52",
+		"button.background": "#15CDD6",
+		"button.foreground": "#000",
+		"button.hoverBackground": "#07afb8",
 		"button.secondaryForeground": "#009191",
 		"button.secondaryBackground": "#169797",
 		"button.secondaryHoverBackground": "#1ac2c2",
@@ -69,27 +68,46 @@
 		"list.activeSelectionBackground": "#232336",
 		"list.activeSelectionForeground": "#eeeeee",
 		"list.dropBackground": "#2d2d46",
-		"list.focusBackground": "#e4e4e4",
-		"list.focusForeground": "#ececec",
+		"list.focusBackground": "#2d2d46",
+		"list.focusForeground": "#2d2d46",
 		"list.highlightForeground": "#ececec",
 		"list.hoverBackground": "#232336",
 		"list.hoverForeground": "#eee",
-		"list.inactiveSelectionBackground": "#2d2d46",
-		"list.inactiveSelectionForeground": "#eee",
+		"list.inactiveSelectionBackground": "#eee",
+		"list.inactiveSelectionForeground": "#2d2d46",
 		"list.inactiveFocusBackground": "#e7e7e7",
 		"list.invalidItemForeground": "#f1616b",
+		"list.errorForeground": "#ffa480",
+		"list.warningForeground": "#fcbe43",
+		"listFilterWidget.background": "#565685",
+		"listFilterWidget.outline": "#2d2d46",
+		"listFilterWidget.noMatchesOutline": "#db5151",
+		"list.filterMatchBackground": "#2d2d46",
+		"list.filterMatchBorder": "#5b5b8b",
+		"tree.indentGuidesStroke": "#6764e2",
+		"list.deemphasizedForeground": "#2d2d46",
 
-
+		//Activity bar
+		"activityBar.background": "#181825",
+		"activityBar.dropBorder": "#242438",
+		"activityBar.foreground": "#eee",
+		"activityBar.inactiveForeground": "#6565a5",
+		"activityBar.border": "#181825",
+		"activityBarBadge.background": "#15CDD6",
+		"activityBarBadge.foreground": "#181825",
 
 		//sidebar
-		"sideBarTitle.foreground": "#fcb228",
-		"sideBar.background": "#161624",
-		"sideBar.foreground": "#191d24",
-		"sideBar.border": "#36435f",
+		"sideBarTitle.foreground": "#15CDD6",
+		"sideBar.background": "#181825",
+		"sideBar.foreground": "#cccccc", //index color
+		"sideBar.border": "#1d2331",
 		"sideBar.dropBackground": "#1e2330",
 		"sideBarSectionHeader.background": "#222238",
-		"sideBarSectionHeader.foreground": "#2c3446",
+		"sideBarSectionHeader.foreground": "#15CDD6",
 		"sideBarSectionHeader.border": "#2b3244",
+
+		//Editor Group and tabs
+		
 	},
 	"tokenColors": [{
 			"name": "Comment",

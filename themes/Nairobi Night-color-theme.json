@@ -2,15 +2,13 @@
 	"name": "Nairobi Night",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#181825",
-		"editor.foreground": "#e3edff",
 
 		//Base colors
 		"focusBorder": "#54648a",
-		"foreground": "#54648a",
-		"widget.shadow": "#56617c",
-		"selection.background": "#495779",
-		"descriptionForeground": "#8695b7",
+		"foreground": "#e3e3ff",
+		"widget.shadow": "#1c202b",
+		"selection.background": "#222938",
+		"descriptionForeground": "#ddd",
 		"errorForeground": "#dd5962",
 		"icon.foreground": "#f0f0f0",
 
@@ -24,12 +22,12 @@
 		"textSeparator.foreground": "#dfdfdf",
 
 		//Button
-		"button.background": "#15CDD6",
-		"button.foreground": "#000",
-		"button.hoverBackground": "#07afb8",
-		"button.secondaryForeground": "#009191",
-		"button.secondaryBackground": "#169797",
-		"button.secondaryHoverBackground": "#1ac2c2",
+		"button.background": "#f09744",
+		"button.foreground": "#181825",
+		"button.hoverBackground": "#f7af6c",
+		"button.secondaryForeground": "#181825",
+		"button.secondaryBackground": "#FAB319",
+		"button.secondaryHoverBackground": "#c78904",
 		"checkbox.background": "#ddd34b",
 		"checkbox.foreground": "#ddd44d",
 		"checkbox.border": "#e4d93c",
@@ -38,20 +36,20 @@
 		"dropdown.background": "#181825",
 		"dropdown.listBackground": "#1c1c2c",
 		"dropdown.border": "#35354b",
-		"dropdown.foreground": "#1b1b29",
+		"dropdown.foreground": "#ddd",
 
 		//input control
 		"input.background": "#1e1e2e",
-		"input.border": "#2a2a3f",
-		"input.foreground": "#1c1c2e",
+		"input.border": "#393953",
+		"input.foreground": "#ddd",
 		"input.placeholderForeground": "#1b1e27",
 		"inputOption.activeBorder": "#af8616",
-		"inputOption.activeBackground": "#5b5e64",
+		"inputOption.activeBackground": "#181825",
 		"inputOption.activeForeground": "#e3edff",
 		"inputValidation.errorBackground": "#1b1e27",
 		"inputValidation.errorBorder": "#333949",
 		"inputValidation.infoBackground": "#1b1e27",
-		"inputValidation.infoForeground": "#313646",
+		"inputValidation.infoForeground": "#ddd",
 		"inputValidation.warningBackground": "#f0564b",
 
 		//scrollbar control
@@ -73,8 +71,8 @@
 		"list.highlightForeground": "#ececec",
 		"list.hoverBackground": "#232336",
 		"list.hoverForeground": "#eee",
-		"list.inactiveSelectionBackground": "#eee",
-		"list.inactiveSelectionForeground": "#2d2d46",
+		"list.inactiveSelectionBackground": "#222235",
+		"list.inactiveSelectionForeground": "#f09744",
 		"list.inactiveFocusBackground": "#e7e7e7",
 		"list.invalidItemForeground": "#f1616b",
 		"list.errorForeground": "#ffa480",
@@ -90,24 +88,50 @@
 		//Activity bar
 		"activityBar.background": "#181825",
 		"activityBar.dropBorder": "#242438",
-		"activityBar.foreground": "#eee",
+		"activityBar.foreground": "#969696",
 		"activityBar.inactiveForeground": "#6565a5",
 		"activityBar.border": "#181825",
-		"activityBarBadge.background": "#15CDD6",
-		"activityBarBadge.foreground": "#181825",
+		"activityBarBadge.background": "#ff9b3e",
+		"activityBarBadge.foreground": "#222",
 
 		//sidebar
-		"sideBarTitle.foreground": "#15CDD6",
+		"sideBarTitle.foreground": "#f09744",
 		"sideBar.background": "#181825",
-		"sideBar.foreground": "#cccccc", //index color
+		"sideBar.foreground": "#cdcdff", //index color
 		"sideBar.border": "#1d2331",
 		"sideBar.dropBackground": "#1e2330",
-		"sideBarSectionHeader.background": "#222238",
-		"sideBarSectionHeader.foreground": "#15CDD6",
-		"sideBarSectionHeader.border": "#2b3244",
+		"sideBarSectionHeader.background": "#1f1f31",
+		"sideBarSectionHeader.foreground": "#f09744",
+		"sideBarSectionHeader.border": "#181827",
 
-		//Editor Group and tabs
-		
+		//Editor Group 
+		"editorGroup.border": "#181825",
+		"editorGroupHeader.noTabsBackground": "#181825",
+		"editorGroupHeader.tabsBackground": "#1f1f30",
+		"editorGroupHeader.tabsBorder": "#181825",
+		"editorPane.background": "#181825",
+
+		//Tabs
+		"tab.border": "#181825",
+		"tab.activeBorder": "#f09744",
+		"tab.activeBackground": "#232836",
+		"tab.inactiveBackground": "#181825",
+		"tab.hoverBackground": "#232836",
+		"tab.hoverForeground": "#cdcdff",
+
+		//Editor
+		"editor.background": "#181825",
+		"editor.foreground": "#e3edff",
+		"editorLineNumber.foreground": "#9898c4",
+		"editorLineNumber.activeForeground": "#f3f3f5",
+		"editorCursor.background": "#181825",
+		"editorCursor.foreground": "#e3edff",
+		"editor.selectionBackground": "#5e5e9c2d",
+		"editor.wordHighlightBackground": "#e9e9ff18",
+		"editor.wordHighlightBorder": "#ffc996",
+		"editor.wordHighlightStrongBackground": "#41415c25",
+		"editor.wordHighlightStrongBorder": "#fcbc81",
+
 	},
 	"tokenColors": [{
 			"name": "Comment",

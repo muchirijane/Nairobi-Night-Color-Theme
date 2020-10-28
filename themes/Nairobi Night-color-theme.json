@@ -121,8 +121,8 @@
 
 		//Editor
 		"editor.background": "#222233",
-		"editor.foreground": "#e3edff",
-		"editorLineNumber.foreground": "#9898c4",
+		"editor.foreground": "#BAB8CD",
+		"editorLineNumber.foreground": "#67677e",
 		"editorLineNumber.activeForeground": "#f3f3f5",
 		"editorCursor.background": "#181825",
 		"editorCursor.foreground": "#e3edff",
@@ -340,9 +340,9 @@
 
 		//Git colors
 		"gitDecoration.addedResourceForeground" : "#648fcf",
-		"gitDecoration.modifiedResourceForeground":"#3fd1ca",
+		"gitDecoration.modifiedResourceForeground":"#6CF7F7",
 		"gitDecoration.deletedResourceForeground": "#e76b6b",
-		"gitDecoration.untrackedResourceForeground": "#f3d490",
+		"gitDecoration.untrackedResourceForeground": "#ffedb0",
 		"gitDecoration.ignoredResourceForeground": "#45448057",
 		"gitDecoration.conflictingResourceForeground": "#dd8080",
 
@@ -429,6 +429,17 @@
 			}
 		},
 		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword.operator.logical.scss",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
@@ -455,9 +466,8 @@
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
 				"punctuation.definition.string.begin.html",
+				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
@@ -465,9 +475,29 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#40ccdf"
+				"foreground": "#f1bc6b"
 			}
 		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.section.property-list.begin.bracket.curly.scss",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#95f16b"
+			}
+		},
+		
 		{
 			"name": "Operator, Misc",
 			"scope": [
@@ -481,6 +511,283 @@
 			}
 		},
 		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.separator.key-value.html",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#c2baae"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.separator.key-value.html",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#c2baae"
+				
+			}
+		},
+		
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.keyword.scss",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#f1bc6b"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"keyword.control.at-rule.media.scss",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#f1bc6b"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.entity.css",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#f1bc6b"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control.at-rule.include.scss",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground":"#f1bc6b"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control.at-rule.import.scss",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#f1bc6b"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#a7cbda"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"punctuation.terminator.rule.css",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground":  "#6CF7F7"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"punctuation.terminator.rule.scss",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.media-query.begin.bracket.round.scss",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#6CF7F7"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"meta.property-list.scss",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.media-query.begin.bracket.round.scss",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#f1bc6b"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"meta.property-list.scss",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#f1bc6b"
+				
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag.html",
@@ -488,7 +795,20 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#3bd8d0"
+				"foreground": "#9be3ff"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function.scss",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#f7ffb1"
 			}
 		},
 		{
@@ -537,6 +857,56 @@
 			],
 			"settings": {
 				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric.css",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#6CF7F7"
+
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"keyword.other.unit.rem.css",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#6CF7F7"
+			}
+		},
+			
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"support.constant.media.css",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#6cf7f7"
 			}
 		},
 		{
@@ -591,6 +961,48 @@
 			],
 			"settings": {
 				"foreground": "#B2CCD6"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"keyword.control.at-rule.media.css",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground":  "#FFCB6B"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"keyword.operator.logical.and.media.css",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground":  "#FFCB6B"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"support.type.property-name.media.css",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#EEFFFF"
 			}
 		},
 		{
@@ -661,6 +1073,15 @@
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "CSS ID's",
+			"scope": [
+				"support.function.misc.scss"
+			],
+			"settings": {
+				"foreground" : "#F7FFB1"
 			}
 		},
 		{

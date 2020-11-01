@@ -121,7 +121,7 @@
 
 		//Editor
 		"editor.background": "#222233",
-		"editor.foreground": "#BAB8CD",
+		"editor.foreground": "#f3f3f3",
 		"editorLineNumber.foreground": "#67677e",
 		"editorLineNumber.activeForeground": "#f3f3f5",
 		"editorCursor.background": "#181825",
@@ -391,6 +391,16 @@
 		{
 			"name": "Variables",
 			"scope": [
+				"variable.scss",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#bdbdbd"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
 				"variable",
 				"string constant.other.placeholder"
 			],
@@ -462,14 +472,33 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
+				
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
-				"punctuation.definition.string.begin.html",
+				"punctuation.separator.key-value.html",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#e3edff"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.separator.inheritance.php",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -487,14 +516,25 @@
 				"meta.tag",
 				"punctuation.section.property-list.begin.bracket.curly.scss",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
 			"settings": {
 				"foreground": "#95f16b"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"punctuation.definition.string.begin.scss",
+				"punctuation.definition.string.end.scss"
+				
+			],
+			"settings": {
+				 "foreground": "#C3E88D"
+				
 			}
 		},
 		
@@ -510,52 +550,6 @@
 				
 			}
 		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
-				
-				"keyword.control",
-				"constant.other.color",
-				"punctuation",
-				"meta.tag",
-				"punctuation.separator.key-value.html",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
-				
-			],
-			"settings": {
-				 "foreground": "#c2baae"
-				
-			}
-		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
-				
-				"keyword.control",
-				"constant.other.color",
-				"punctuation",
-				"meta.tag",
-				"punctuation.separator.key-value.html",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
-				
-			],
-			"settings": {
-				 "foreground": "#c2baae"
-				
-			}
-		},
 		
 		{
 			"name": "Operator, Misc",
@@ -567,9 +561,6 @@
 				"meta.tag",
 				"punctuation.definition.keyword.scss",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -590,9 +581,6 @@
 				"meta.tag",
 				"keyword.control.at-rule.media.scss",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -613,9 +601,6 @@
 				"meta.tag",
 				"punctuation.definition.entity.css",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -634,11 +619,7 @@
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
-				"punctuation.definition.tag.begin.html",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -653,15 +634,29 @@
 			"name": "Operator, Misc",
 			"scope": [
 				
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#cdcdff",
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
 				"keyword.control.at-rule.import.scss",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
-				"punctuation.definition.tag.begin.html",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -676,15 +671,30 @@
 			"name": "Operator, Misc",
 			"scope": [
 				
+				"keyword.control.at-rule.mixin.scss",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground":  "#f1bc6b"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
-				"punctuation.definition.tag.begin.html",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -705,16 +715,13 @@
 				"meta.tag",
 				"punctuation.section.property-list.begin.bracket.curly.css",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
 				
 			],
 			"settings": {
-				 "foreground":  "#6CF7F7"
+				 "foreground":   "#EEFFFF"
 				
 			}
 		},
@@ -728,16 +735,13 @@
 				"meta.tag",
 				"punctuation.definition.media-query.begin.bracket.round.scss",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
 				
 			],
 			"settings": {
-				 "foreground": "#6CF7F7"
+				 "foreground": "#9BE3FF"
 				
 			}
 		},
@@ -751,9 +755,6 @@
 				"meta.tag",
 				"punctuation.definition.media-query.begin.bracket.round.scss",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -774,9 +775,6 @@
 				"meta.tag",
 				"punctuation.section.property-list.begin.bracket.curly.css",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -786,7 +784,7 @@
 				 "foreground": "#f1bc6b"
 				
 			}
-		},
+		}, //
 		{
 			"name": "Tag",
 			"scope": [
@@ -872,7 +870,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#6CF7F7"
+				"foreground": "#9BE3FF"
 
 			}
 		},
@@ -880,6 +878,7 @@
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"keyword.other.unit.rem.css",
+				"keyword.other.unit.percentage.css",
 				"constant.language",
 				"support.constant",
 				"constant.character",
@@ -889,7 +888,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#6CF7F7"
+				"foreground": "#9BE3FF"
 			}
 		},
 			
@@ -906,7 +905,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#6cf7f7"
+				"foreground": "#9BE3FF"
 			}
 		},
 		{
@@ -960,7 +959,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground":"#e3edff"
 			}
 		},
 		{
@@ -1002,7 +1001,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#e3edff"
 			}
 		},
 		{

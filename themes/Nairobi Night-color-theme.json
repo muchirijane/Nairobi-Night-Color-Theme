@@ -97,7 +97,7 @@
 		//sidebar
 		"sideBarTitle.foreground": "#fcac61",
 		"sideBar.background": "#181825",
-		"sideBar.foreground": "#9696b6",   //index color
+		"sideBar.foreground": "#939396",   //index color
 		"sideBar.border": "#1f1f306b",
 		"sideBar.dropBackground": "#1e2330",
 		"sideBarSectionHeader.background": "#1e1e2e",
@@ -319,7 +319,7 @@
 		"terminal.ansiCyan": "#58dbf5",
 		"terminal.ansiGreen" : "#5aecc1",
 		"terminal.ansiMagenta" : "#B80083",
-		"terminal.ansiRed" : "#da3838",
+		"terminal.ansiRed" : "#e94444",
 		"terminal.ansiWhite" : "#fff",
 		"terminal.ansiYellow" : "#fc9739",
 		"terminal.selectionBackground" : "#6666af3d",
@@ -395,7 +395,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#bdbdbd"
+				"foreground": "#F7FFB1"
 			}
 		},
 		{
@@ -436,6 +436,17 @@
 			],
 			"settings": {
 				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"storage.type.js",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#e3edff"
 			}
 		},
 		{
@@ -510,11 +521,21 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
+				"punctuation.section.property-list.begin.bracket.curly.scss",
+				"punctuation.section.property-list.end.bracket.curly.scss"
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		
+		{
+			"name": "Operator, Misc",
+			"scope": [
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
-				"punctuation.section.property-list.begin.bracket.curly.scss",
 				"punctuation.separator.inheritance.php",
 				"punctuation.section.embedded",
 				"keyword.other.template",
@@ -580,6 +601,26 @@
 				"punctuation",
 				"meta.tag",
 				"keyword.control.at-rule.media.scss",
+				"punctuation.separator.inheritance.php",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+				
+			],
+			"settings": {
+				 "foreground": "#f1bc6b"
+				
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"punctuation.definition.block.js",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.entity.css",
 				"punctuation.separator.inheritance.php",
 				"punctuation.section.embedded",
 				"keyword.other.template",
@@ -683,6 +724,19 @@
 			],
 			"settings": {
 				 "foreground":  "#f1bc6b"
+				
+			}
+		},
+		
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				
+				"keyword.control.import.js",
+				
+			],
+			"settings": {
+				 "foreground": "#9BE3FF"
 				
 			}
 		},
@@ -812,6 +866,37 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
+				"keyword.control.export.js",
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"keyword.operator.gradient.css",
+			],
+			"settings": {
+				"foreground": "#F7FFB1"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"support.function.gradient.css",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
@@ -820,6 +905,71 @@
 			],
 			"settings": {
 				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"variable.other.readwrite.js"
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"variable.other.object.property.js",
+				"variable.other.property.js"
+			],
+			"settings": {
+				"foreground": "#BDBDBD"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"string.quoted.single.js"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"variable.other.constant.js"
+			],
+			"settings": {
+				"foreground":"#F7FFB1"
+
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"variable.other.object.js"
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"variable.other.readwrite.js"
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"variable.other.readwrite.alias.js"
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
 			}
 		},
 		{
@@ -1025,6 +1175,7 @@
 				"foreground": "#FF5370"
 			}
 		},
+		
 		{
 			"name": "entity.name.method.js",
 			"scope": [
@@ -1036,13 +1187,121 @@
 			}
 		},
 		{
+			"name": "source.js",
+			"scope": [
+				"punctuation.terminator.statement.js",
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"string.template.js",
+			],
+			"settings": {
+				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"constant.numeric.decimal.js",
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"string.quoted.double.js",
+			],
+			"settings": {
+				"foreground": "#F7FFB1"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"string.quoted.single.js",
+			],
+			"settings": {
+				"foreground": "#F7FFB1"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"meta.brace.round.js",
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"keyword.operator.new.js",
+			],
+			"settings": {
+				"foreground": "#F7FFB1"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"keyword.operator.assignment.js",
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"keyword.control.conditional.js",
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"entity.other.attribute-name.js",
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"support.class.component.js",
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"meta.jsx.children.js",
+			],
+			"settings": {
+				"foreground": "#E3EDFF"
+			}
+		},
+		{
 			"name": "meta.method.js",
 			"scope": [
-				"meta.class-method.js entity.name.function.js",
+				"entity.name.function.js",
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#F7FFB1"
 			}
 		},
 		{
@@ -1282,8 +1541,33 @@
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
-				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": [
+				"punctuation.definition.heading.markdown",
+			],
+			"settings": {
+				"foreground":  "#9BE3FF"
+			}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": [
+				"entity.name.section.markdown",
+			],
+			"settings": {
+				"foreground":  "#9BE3FF"
+			}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": [
+				"markdown.heading",
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -1335,6 +1619,7 @@
 				"foreground": "#F78C6C"
 			}
 		},
+		
 		{
 			"name": "Markdown - Blockquote",
 			"scope": [

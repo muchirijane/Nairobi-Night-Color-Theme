@@ -16,8 +16,8 @@
 		"textBlockQuote.background": "#202031",
 		"textBlockQuote.border": "#3a4661",
 		"textCodeBlock.background": "#20283a",
-		"textLink.activeForeground": "#e0e3eb",
-		"textLink.foreground": "#dddddd",
+		"textLink.activeForeground": "#f7af6c",
+		"textLink.foreground": "#f09744",
 		"textPreformat.foreground": "#d8d8d8",
 		"textSeparator.foreground": "#dfdfdf",
 
@@ -121,9 +121,9 @@
 
 		//Editor
 		"editor.background": "#222233",
-		"editor.foreground": "#f3f3f3",
+		"editor.foreground": "#c7c7c7",
 		"editorLineNumber.foreground": "#67677e",
-		"editorLineNumber.activeForeground": "#f3f3f5",
+		"editorLineNumber.activeForeground": "#a8a8a8",
 		"editorCursor.background": "#181825",
 		"editorCursor.foreground": "#e3edff",
 		"editor.selectionBackground": "#5e5e9c2d",
@@ -403,7 +403,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#c7c7c7"
 			}
 		},
 		{
@@ -760,7 +760,7 @@
 				
 			],
 			"settings": {
-				 "foreground":   "#EEFFFF"
+				 "foreground":  "#c7c7c7"
 				
 			}
 		},
@@ -1172,6 +1172,33 @@
 			}
 		},
 		{
+			"name": "source.python",
+			"scope": [
+				"string.quoted.single.python",
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
+			"name": "source.python",
+			"scope": [
+				"support.function.builtin.python",
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "source.python",
+			"scope": [
+				"meta.function-call.arguments.python",
+			],
+			"settings": {
+				"foreground": "#F7FFB1"
+			}
+		},
+		{
 			"name": "source.js",
 			"scope": [
 				"variable.parameter.js",
@@ -1204,7 +1231,7 @@
 				"string.template.js",
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#c7c7c7"
 			}
 		},
 		{
@@ -1443,10 +1470,12 @@
 		{
 			"name": "JSON Key - Level 0",
 			"scope": [
-				"source.json meta.structure.dictionary.json support.type.property-name.json"
+				"support.type.property-name.json",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#9BE3FF"
 			}
 		},
 		{
@@ -1506,10 +1535,20 @@
 		{
 			"name": "JSON Key - Level 7",
 			"scope": [
+				"punctuation.separator.dictionary.pair.json"
+			],
+			"settings": {
+				"foreground": "#9BE3FF"
+			}
+		},
+
+		{
+			"name": "JSON Key - Level 7",
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#9BE3FF"
 			}
 		},
 		{
@@ -1528,7 +1567,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#c7c7c7"
 			}
 		},
 		{
@@ -1712,7 +1751,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#c7c7c7"
 			}
 		},
 		{
@@ -1740,7 +1779,7 @@
 				"markup.table"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#c7c7c7"
 			}
 		}
 	]

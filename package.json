@@ -17,5 +17,8 @@
                 "path": "./themes/Nairobi Night-color-theme.json"
             }
         ]
+    },
+    "dependencies": {
+        "request": "^2.88.2"
     }
 }

@@ -309,17 +309,17 @@
 		"terminal.ansiBrightBlack" : "#aeaeaf",
 		"terminal.ansiBrightBlue": "#86bcee",
 		"terminal.ansiBrightCyan": "#47d1ec",
-		"terminal.ansiBrightGreen":  "#4ec4a0",
+		"terminal.ansiBrightGreen": "#77fc82",
 		"terminal.ansiBrightMagenta": "#811A74",
 		"terminal.ansiBrightRed": "#e44d4d",
 		"terminal.ansiBrightWhite": "#e0e0e0",
-		"terminal.ansiBrightYellow" : "#faaa5f",
+		"terminal.ansiBrightYellow" : "#f1bc6b",
 		"terminal.ansiCyan": "#58dbf5",
-		"terminal.ansiGreen" : "#5aecc1",
+		"terminal.ansiGreen" : "#51f05e",
 		"terminal.ansiMagenta" : "#B80083",
 		"terminal.ansiRed" : "#e94444",
 		"terminal.ansiWhite" : "#cccccc",
-		"terminal.ansiYellow" : "#fc9739",
+		"terminal.ansiYellow" : "#fdce87",
 		"terminal.selectionBackground" : "#6666af3d",
 		"terminalCursor.background" :"#181825",
 		"terminalCursor.foreground" :"#faaa5f", 
@@ -383,7 +383,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground":  "#797979a6",
 			}
 		},
 		{
@@ -721,7 +721,7 @@
 				
 			],
 			"settings": {
-				 "foreground": "#9be3ff"
+				 "foreground": "#9BE3FF"
 				
 			}
 		},
@@ -852,9 +852,10 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"keyword.control.export.js",
+				"keyword.control.default.js"
 			],
 			"settings": {
-				"foreground": "#f1bc6b"
+				"foreground":  "#9BE3FF"
 			}
 		},
 		{
@@ -1248,15 +1249,32 @@
 			}
 		},
 		{
+			"name": "source.css.scss",
+			"scope": [
+				"meta.attribute-selector.scss"
+			],
+			"settings": {
+				"foreground": "#C3E88D",
+			}
+		},
+		{
+			"name": "source.css.scss",
+			"scope": [
+				"entity.other.attribute-name.attribute.scss"
+			],
+			"settings": {
+				"foreground": "#c75bf1",
+			}
+		},
+		{
 			"name": "source.cpp",
 			"scope": [
 				"comment.line.double-slash.cpp",
 				"comment.line.number-sign.yaml",
 				"punctuation.definition.comment.yaml",
-				""
 			],
 			"settings": {
-				"foreground": "#a8a8a84f",
+				"foreground": "#797979a6",
 			}
 		},
 		{
@@ -1271,11 +1289,10 @@
 		{
 			"name": "source.js",
 			"scope": [
-				"keyword.control.default.js",
-				"keyword.control.export.js"
+				"support.function.js",
 			],
 			"settings": {
-				"foreground":"#A7CBDA"
+				"foreground": "#9BE3FF"
 			}
 		},
 		{
@@ -1284,7 +1301,7 @@
 				"storage.type.js",
 			],
 			"settings": {
-				"foreground": "#A7CBDA"
+				"foreground": "#9BE3FF"
 			}
 		},
 		{
@@ -1348,6 +1365,30 @@
 			],
 			"settings": {
 				"foreground": "#9BE3FF"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"comment.block.js",
+				"punctuation.definition.comment.js",
+				"comment.block.documentation.js",
+				"comment.line.number-sign.ignore",
+				"comment.line.double-slash.js",
+				"punctuation.definition.comment.scss",
+				"comment.block.scss"
+			],
+			"settings": {
+				"foreground": "#797979a6"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"meta.object-literal.key.js",
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
 			}
 		},
 		{

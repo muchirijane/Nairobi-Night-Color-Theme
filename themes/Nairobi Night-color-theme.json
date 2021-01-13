@@ -703,6 +703,16 @@
 			}
 		},
 		{
+			"name": "source.js",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"support.function.transform.css"
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				
@@ -1179,13 +1189,14 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+				"foreground":"#f1bc6b"
 			}
 		},
 		{
 			"name": "source.python",
 			"scope": [
 				"string.quoted.single.python",
+				"entity.name.function.python"
 			],
 			"settings": {
 				"foreground": "#f1bc6b"
@@ -1521,6 +1532,43 @@
 			"name": "source.js",
 			"scope": [
 				"support.class.component.js",
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"support.function.json.js",
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		
+		{
+			"name": "source.powershell",
+			"scope": [
+				"support.function.powershell",
+			],
+			"settings": {
+				"foreground":  "#9BE3FF"
+			}
+		},
+		{
+			"name": "source.powershell",
+			"scope": [
+				"entity.name.function.powershell",
+			],
+			"settings": {
+				"foreground": "#f1bc6b"
+			}
+		},
+		{
+			"name": "source.shell",
+			"scope": [
+				"support.function.builtin.shell",
 			],
 			"settings": {
 				"foreground": "#f1bc6b"

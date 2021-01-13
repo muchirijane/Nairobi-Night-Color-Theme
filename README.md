@@ -1,16 +1,32 @@
 # README
 
-## This is the README for your extension "nairobi-night"
+<p align="center">
+<img alt='Nairobi Night Logo' src="/images/logo.png">
+</p>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+<h1 align="center">
+Nairobi Night Color Theme 🤩
+</h1>
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+<p align="center">
+<img alt='Nairobi Night preview' src="/images/preview-theme.png">
+</p>
 
-### For more information
+<p align="center">
+A dark theme based on dark blue colour, that showcases cool colours from the city under sun at night.
+</p>
 
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+#### How to Install from VS Code
 
-**Enjoy!**
+1. In the Left sidebar, click the `Extension icon` or `ctrl+ shift+ x` for windows.
+2. Search for `Nairobi Night`
+3. Click Install to add it to your colour theme collection.
+4. Click on the settings, choose `color theme` and select `Nairobi Night`
+
+#### Vs Code Theme Resources used
+
+- [VS Code Theming Documentation](https://code.visualstudio.com/api/extension-capabilities/theming)
+
+- [Theme Color Documentation](https://code.visualstudio.com/api/references/theme-color)
+
+- [Publishing Extension Documentation](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)

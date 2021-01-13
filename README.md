@@ -1,7 +1,7 @@
 # README
 
 <p align="center">
-<img alt='Nairobi Night Logo' src="/images/theme-logo.png">
+<img alt='Nairobi Night Logo' src="/images/logo.png">
 </p>
 
 <h1 align="center">
@@ -13,7 +13,7 @@ Nairobi Night Color Theme 🤩
 </p>
 
 <p align="center">
-A dark theme based on dark blue colour, that showcases cool colours from the city under sun at night.
+A dark theme based on dark blue colour, that showcases cool colours from the city under sun when the sun goes down.
 </p>
 
 #### How to Install from VS Code

@@ -3,11 +3,38 @@
     "displayName": "Nairobi Night",
     "description": "This is a dark Visual Studio Code theme that shows the amazing life and bright lights of Nairobi when the sun goes down.",
     "version": "0.0.1",
+    "publisher": "brittanychiang",
+    "icon": "/images/logo.png",
+    "author": {
+        "name": "Jane Tracy Muthoni",
+        "email": "muchirijane@outlook.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/muchirijane/Nairobi-Night-Color-Theme"
+    },
+    "bugs": {
+        "url": "https://github.com/muchirijane/Nairobi-Night-Color-Theme/issues",
+        "email": "muchirijane@outlook.com"
+    },
+    "homepage": "https://github.com/muchirijane/Nairobi-Night-Color-Theme/blob/main/README.md",
+    "galleryBanner": {
+        "color": "#181825",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.49.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+    "Themes",
+    "color-theme",
+    "Dark Theme",
+    "blue",
+    "orange",
+    "Nairobi-Night"
     ],
     "contributes": {
         "themes": [

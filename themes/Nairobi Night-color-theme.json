@@ -457,6 +457,16 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+			],
+			"settings": {
+				"foreground": "#A7CBDA"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
@@ -464,8 +474,6 @@
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -1419,6 +1427,16 @@
 			],
 			"settings": {
 				"foreground": "#F7FFB1"
+			}
+		},
+		{
+			"name": "source.js",
+			"scope": [
+				"punctuation.definition.tag.begin.js",
+				"punctuation.definition.tag.end.js"
+			],
+			"settings": {
+				"foreground": "#A7CBDA"
 			}
 		},
 		{

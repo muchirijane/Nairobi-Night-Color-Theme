@@ -1,7 +1,7 @@
 # README
 
 <p align="center">
-<img alt='Nairobi Night Logo' src="/images/logo.png">
+<img alt='Nairobi Night Logo' src="/images/theme-logo.png">
 </p>
 
 <h1 align="center">

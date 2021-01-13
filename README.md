@@ -1,7 +1,7 @@
 # README
 
 <p align="center">
-<img alt='Nairobi Night Logo' src="/images/logo.png">
+<img alt='Nairobi Night Logo' src="https://github.com/muchirijane/Nairobi-Night-Color-Theme/blob/main/images/logo.png">
 </p>
 
 <h1 align="center">
@@ -9,7 +9,7 @@ Nairobi Night Color Theme 🤩
 </h1>
 
 <p align="center">
-<img alt='Nairobi Night preview' src="/images/preview-theme.png">
+<img alt='Nairobi Night preview' src="https://github.com/muchirijane/Nairobi-Night-Color-Theme/blob/main/images/preview-theme.png">
 </p>
 
 <p align="center">

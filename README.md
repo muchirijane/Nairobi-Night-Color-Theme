@@ -1,7 +1,7 @@
 # README
 
 <p align="center">
-<img alt='Nairobi Night Logo' src="https://github.com/muchirijane/Nairobi-Night-Color-Theme/blob/main/images/logo.png">
+<img alt='Nairobi Night Logo' src="https://github.com/muchirijane/Nairobi-Night-Color-Theme/blob/main/images/logo.png" height='100'>
 </p>
 
 <h1 align="center">

@@ -42,6 +42,11 @@
                 "label": "Nairobi Night",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Nairobi Night-color-theme.json"
+            },
+            {
+                "label": "Nairobi Night Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nairobi Night-Italic-color-theme.json"
             }
         ]
     },

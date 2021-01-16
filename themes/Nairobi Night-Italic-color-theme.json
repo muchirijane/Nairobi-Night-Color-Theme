@@ -1612,7 +1612,8 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#F7FFB1"
+        "foreground": "#F7FFB1",
+        "fontStyle": "italic"
 			}
 		},
 		{

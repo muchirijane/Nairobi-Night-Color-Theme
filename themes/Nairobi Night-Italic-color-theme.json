@@ -437,10 +437,11 @@
 		{
 			"name": "source.js",
 			"scope": [
-				"entity.name.function.ts"
+				"entity.name.function.js"
 			],
 			"settings": {
-				"foreground": "#f1bc6b"
+        "foreground": "#f1bc6b",
+        "fontStyle": "italic"
 			}
 		},
 		{
